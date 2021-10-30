@@ -5,7 +5,7 @@ const colors = ["red", "green", "purple", "yellow", "pink", "gold", "orange", "b
 
 
 // an h1 title created as a child of the body
-title.textContent = "Color Flipper";
+title.textContent = "Random Color Flipper";
 body.appendChild(title);
 
 
