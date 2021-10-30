@@ -20,7 +20,7 @@ let btn = document.createElement("button");        // button created for user to
 
 
 btn.textContent = "Change Color";
-currentColor.textContent = "blue";
+currentColor.textContent = "blue".toUpperCase();
 currentColor.classList.add("currentColor");
 btn.classList.add("btn");
 container.classList.add("container");
@@ -43,7 +43,7 @@ btn.addEventListener("click", () => {
        let x = colors[color];
          console.log(x);
            body.style.background = x;
-             currentColor.textContent = x;
+             currentColor.textContent = x.toUpperCase();
     
 });
 
