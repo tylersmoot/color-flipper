@@ -8,6 +8,10 @@ body {
 
 .btn {
     padding: 15px;
+    background: crimson;
+    border: none;
+    color: white;
+    font-weight: bold;
     
 }
 
