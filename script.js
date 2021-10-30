@@ -17,11 +17,15 @@ let currentColor = document.createElement("p");    //p tag created that will con
 let btn = document.createElement("button");        // button created for user to click
 
 
-btn.textContent = "Click Me";
+
+
+btn.textContent = "Change Color";
 currentColor.textContent = "blue";
 currentColor.classList.add("currentColor");
 btn.classList.add("btn");
 container.classList.add("container");
+
+
 
 
 body.appendChild(container);
@@ -39,7 +43,7 @@ btn.addEventListener("click", () => {
        let x = colors[color];
          console.log(x);
            body.style.background = x;
-           currentColor.textContent = x;
+             currentColor.textContent = x;
     
 });
 
